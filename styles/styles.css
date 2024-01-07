@@ -7,7 +7,7 @@ body {
 /*banner styles*/
 
 .banner-greeting {
-    color:#300053;
+    color: #300053;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -16,7 +16,7 @@ body {
 }
 
 .banner-title {
-    color:#4B0082;
+    color: #4B0082;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -32,7 +32,39 @@ body {
     margin: 30px 120px;
     border-radius: 16px;
     background-color: #E6E6FA;
- 
+
 
 }
+
 /*section styles*/
+.off {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 300px 409px o;
+}
+
+
+.our {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 030px 401px 0 402px;
+}
+
+.all {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 395px 0;
+}
+
+.img {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 40px 350px 0;
+}
