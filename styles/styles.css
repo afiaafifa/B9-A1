@@ -151,7 +151,7 @@ body {
     padding: 120px 0;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 120px 80px 0;
 }
 
@@ -163,29 +163,106 @@ body {
     background-color: #F00;
     color: #fff;
     font-size: 16px;
-    border-radius:  8px;
+    border-radius: 8px;
     cursor: pointer;
-   
+
 }
 
 .join-button:hover {
     background-color: #2980b9;
 }
 
-.strong{
+.strong {
     color: #F00;
-text-align: center;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px; 
-text-transform: capitalize;
-line-height: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    line-height: 20px;
 }
-.event-details p{
+
+.event-details p {
     color: #070211;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-line-height: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 80px 0;
+}
+
+.offer > div{
+    flex-grow: 1;
+    text-align: center;
+}
+    
+
+
+.new, .soon, .soon-description, .title, .title-description, .group-96 {
+    text-align: center;
+}
+
+.new {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    
+}
+
+.soon {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+.ellipse {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    padding: 39px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+}
+
+.title {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.group-96 {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
 }
