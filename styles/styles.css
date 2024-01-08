@@ -295,7 +295,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 300px;
 }
 
 .what-is-functional {
@@ -307,28 +307,31 @@ body {
 }
 /* discount styles*/
 .discount {
-    background-image: url('../resources/Rectangle\ 2.png');
-    background-position: bottom;
-    background-size: cover;
-    border-radius: 16px 0px 16px 16px;
-    width: 100%;
-    height: 229px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    
 }
 
 .image-container {
     display: flex;
     align-items: flex-end;
+    background-image: url('../resources/Rectangle\ 2.png');
+background-position: bottom;
+background-size: cover;
+border-radius: 16px 0px 16px 16px;
+width: 100%;
+height: 229px;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+   
 }
 
 .group-75 {
     margin-right: 200px;
     margin-top: 200px;
-    width: 98.77px;
-height: 145.319px;
+    width: 500px;
+height: 500px;
 flex-shrink: 0;
+
 }
 
 .right-images {
@@ -337,19 +340,48 @@ flex-shrink: 0;
 }
 
 .rec {
-    margin-top: 20px;
-    color: #FFF;
-font-family: Inter;
-font-size: 73.015px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background-image: url('../resources/Rectangle\ 1.png'), lightgray -59.98px 0px / 151.553% 100% no-repeat;
-border-radius: 16px 16px 0px 0px;
-width: 206.841px;
+    margin-right: 200px;
+    margin-top: 200px;
+    width: 206.841px;
 height: 206.841px;
 flex-shrink: 0;
+border-radius: 16px 16px 0px 0px;
+background: url('../resources/Rectangle\ 1.png'), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+background-position: top right;
+    
 
     
 }
 
+/* gift styles*/
+.h{
+    margin: 120px 80px 0; 
+}
+.bgift{
+
+    display: block;
+    text-align: justify;
+   
+}
+.gift{
+    color: #F00;
+font-size: 24px;;
+font-weight: 500;
+padding-bottom: 10px;
+}
+.potfoli{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+padding-bottom: 18px;
+}
+.best{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+.recu{
+    padding: 18px;
+}
