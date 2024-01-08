@@ -435,6 +435,7 @@ background: url('../resources/Rectangle\ 1.png'), lightgray -59.98px 0px / 151.5
     height: 150px;
     flex-shrink: 0;
     padding: 80px 580px 40px;
+    display: flex;
 
 }
 
