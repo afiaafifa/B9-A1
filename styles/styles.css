@@ -7,7 +7,7 @@ body {
 /*banner styles*/
 
 .banner-greeting {
-    color: #300053;
+    color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -16,7 +16,7 @@ body {
 }
 
 .banner-title {
-    color: #4B0082;
+    color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -25,14 +25,15 @@ body {
 }
 
 .banner {
-    background-image: url('../resources/Banner\ Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     border-radius: 16px;
     margin: 30px 120px;
     border-radius: 16px;
     background-color: #E6E6FA;
-
+    border-radius: 16px;
+    background: ;
 
 }
 
