@@ -266,3 +266,29 @@ body {
     height: 140px;
     flex-shrink: 0;
 }
+/*WHAT IS FUNCTIONAL styles*/
+.what{
+    color: #070211;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+padding-bottom: 0;
+}
+.holi{
+    color: #F00;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+padding-bottom: 25px
+}
+.holi-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; 
+}
+.what-is-functional{
+    margin: 120px 80px 0;
+
+}
