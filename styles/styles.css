@@ -337,6 +337,16 @@ padding-bottom: 20px;
     height: 206.841px;
     flex-shrink: 0;
 }
+.left-image{
+    margin-left: 200px;
+    margin-bottom: 400px;
+    width: 206.841px;
+    height: 206.841px;
+    flex-shrink: 0;
+    
+    border-radius: 16px 16px 0px 0px;
+background: url('../resources/Rectangle\ 1.png'), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
 
 .group-75 {
     margin-right: 200px;
